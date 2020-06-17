@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking-CSharp", "Networking-CSharp\Networking-CSharp.csproj", "{6A69A3DE-1FD7-4B0C-A8BF-AB1C7CCBBB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieModell", "AgentieModell\AgentieModell.csproj", "{7A2D9DA2-F166-4D9C-8C2A-216CE0BDD683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentiePersistance", "AgentiePersistance\AgentiePersistance.csproj", "{77A3538D-2ECC-428F-97E3-24003F30DB2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieServer", "AgentieServer\AgentieServer.csproj", "{70D94F2F-913A-4C09-86F0-2E3FDD300BB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieNetworking", "AgentieNetworking\AgentieNetworking.csproj", "{69968106-C962-4450-9B23-A3D41BB69D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieServices", "AgentieServices\AgentieServices.csproj", "{29513162-ACF8-4132-94F4-EE3810CD4A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieClient", "AgentieClient\AgentieClient.csproj", "{AD6A0851-DB70-42BD-8682-2EEF9DC500F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A69A3DE-1FD7-4B0C-A8BF-AB1C7CCBBB38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A69A3DE-1FD7-4B0C-A8BF-AB1C7CCBBB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A69A3DE-1FD7-4B0C-A8BF-AB1C7CCBBB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A69A3DE-1FD7-4B0C-A8BF-AB1C7CCBBB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2D9DA2-F166-4D9C-8C2A-216CE0BDD683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2D9DA2-F166-4D9C-8C2A-216CE0BDD683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2D9DA2-F166-4D9C-8C2A-216CE0BDD683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2D9DA2-F166-4D9C-8C2A-216CE0BDD683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A3538D-2ECC-428F-97E3-24003F30DB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A3538D-2ECC-428F-97E3-24003F30DB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A3538D-2ECC-428F-97E3-24003F30DB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A3538D-2ECC-428F-97E3-24003F30DB2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D94F2F-913A-4C09-86F0-2E3FDD300BB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D94F2F-913A-4C09-86F0-2E3FDD300BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D94F2F-913A-4C09-86F0-2E3FDD300BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D94F2F-913A-4C09-86F0-2E3FDD300BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69968106-C962-4450-9B23-A3D41BB69D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69968106-C962-4450-9B23-A3D41BB69D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69968106-C962-4450-9B23-A3D41BB69D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69968106-C962-4450-9B23-A3D41BB69D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29513162-ACF8-4132-94F4-EE3810CD4A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29513162-ACF8-4132-94F4-EE3810CD4A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29513162-ACF8-4132-94F4-EE3810CD4A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29513162-ACF8-4132-94F4-EE3810CD4A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6A0851-DB70-42BD-8682-2EEF9DC500F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6A0851-DB70-42BD-8682-2EEF9DC500F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6A0851-DB70-42BD-8682-2EEF9DC500F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6A0851-DB70-42BD-8682-2EEF9DC500F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFEE0155-521B-4FDD-890E-B29A8F86F134}
+	EndGlobalSection
+EndGlobal
